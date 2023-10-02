@@ -10,10 +10,18 @@
 		},
 		{
 			"source": "/portfolio/",
-			"destination": "https://portfolio-zeta-coral-85.vercel.app/"
+			"destination": "https://portfolio-zeta-coral-85.vercel.app/en/"
 		},
 		{
 			"source": "/portfolio/:match*",
+			"destination": "https://portfolio-zeta-coral-85.vercel.app/:match*"
+		},
+		{
+			"source": "/",
+			"destination": "https://portfolio-zeta-coral-85.vercel.app/en/"
+		},
+		{
+			"source": "/:match*",
 			"destination": "https://portfolio-zeta-coral-85.vercel.app/:match*"
 		}
 	]
