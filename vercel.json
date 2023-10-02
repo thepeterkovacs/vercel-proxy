@@ -1,0 +1,20 @@
+{
+	"rewrites": [
+		{
+			"source": "/lol-scan-api/",
+			"destination": "https://lol-scan-api.vercel.app/"
+		},
+		{
+			"source": "/lol-scan-api/:match*",
+			"destination": "https://lol-scan-api.vercel.app/:match*"
+		},
+		{
+			"source": "/portfolio/",
+			"destination": "https://portfolio-zeta-coral-85.vercel.app/"
+		},
+		{
+			"source": "/portfolio/:match*",
+			"destination": "https://portfolio-zeta-coral-85.vercel.app/:match*"
+		}
+	]
+}
