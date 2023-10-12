@@ -5,10 +5,6 @@
 			"destination": "https://lol-scan-api.vercel.app/"
 		},
 		{
-			"source": "/lol-scan-api/swagger/",
-			"destination": "https://lol-scan-api.vercel.app/swagger/"
-		},
-		{
 			"source": "/lol-scan-api/:match*",
 			"destination": "https://lol-scan-api.vercel.app/:match*"
 		},
